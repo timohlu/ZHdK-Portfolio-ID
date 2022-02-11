@@ -430,6 +430,7 @@ button:active {
   text-align: left;
   line-height: 1rem;
   top: 0;
+  padding-top: 7%;
   margin-left: 20px;
 }
 
@@ -542,6 +543,38 @@ button:active {
     opacity: 0.6;
     display: block;
     transition: 0.3s;
+  }
+
+  /* Hausaufgabe Site Heading */
+  .header {
+    background-color: white;
+    padding-bottom: 3%;
+    position: sticky;
+    z-index: -1;
+    top: 0px;
+    padding-top: 5px;
+  }
+
+  #hausaufgabe-title-header {
+    font-size: 11vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.3s ease;
+    text-align: left;
+    line-height: 1rem;
+    top: 0;
+    padding-top: 30%;
+    margin-left: 20px;
+  }
+
+  #hausaufgabe-subtitle-header {
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(185, 185, 185);
+    transition: 0.3s ease;
+    text-align: left;
+    margin-left: 25px;
   }
 
   /* Mobile - Index Projects Selection */
