@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link reL="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="nav-bar">
+        <h1 class="logo-text"><a href="index.html">Timo Hlubek</a></h1>
+        <!-- <img id="logo-img" src="Assets/Logo/LogoPlaceHolder@2x.png"> -->
+        <!-- <h1 class="navigation"><a href="about.html">About</a></h1> -->
+        <!-- <h1 class="navigation"><a href="index.html">Work</a></h1> -->
+        <!-- <h1 class="navigation"><a href="index.html">Inhaltsverzeichnis</a></h1> -->
+        <span class="navigation-overlay" style="cursor:pointer" onclick="openNav()">menu</span>
+    </div>
+    
+   <!-- Overlay -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10005;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="tinder.html">Hausaufgabe</a>
+      <a href="proj-infinity.html">Infinity</a>
+      <a href="proj-emotions.html">Emotions</a>
+      <a href="proj-ringed.html">Ringed</a>
+      <a href="fashion.html">Fashion</a>
+      <a href="NFT.html">NFT</a>
+    </div>
+  </div>
+
+    <!-- Project Content -->
+    <div class="site-content">
+        <div id="proj-title-header">
+            <h1>
+                Modefotografie
+            </h1>
+        </div>
+
+    <div id="thirds-imgs">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_014-1 copy.jpg">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_037-1 copy.jpg">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_38_661-1.jpg">
+    </div>
+
+    <div id="thirds-imgs">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_040-1 copy.jpg">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_046-1 copy.jpg">
+        <img class="thirds" src="Assets/Project Content/Fashion/2019_11_modefotografie_048-1.jpg">
+    </div>
+    
+
+    <div class="projects-info-container" >
+        <h1 id="proj-info-head">Projektbeschrieb</h1>
+        <p id="proj-info-text">
+            Modefotografie Modul in der Kunstschule.
+            <br>
+            <br>
+            Wir wollten mit einfarbigen Hintergründen ein doch möglichst interessantes Feeling erzeugen.
+            <br>
+            <br>
+            Zu uns in die Schule kamen, eine Fashion Stylistin und eine Modefotografin.
+            <br>
+            Das Ziel war es so unabhängig wie möglich von denen beiden eine Fashion-serie zu planen und fotografieren.
+            <br>
+            <br>
+            Schon sehr früh wussten wir ziemlich genau was für ein Stil wir umsetzen wollten und haben den auch bis hin zum Schluss durchgezogen.
+        </p>
+        <p id="proj-info-year"> // 2019</p>
+        
+        <div class="projects-info" >
+        <h1 id="proj-info-head">Alternative Versionen</h1>
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/2019_11_modefotografie_037-1 BlenderTryout.png">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/2019_11_modefotografie_013-1 BlenderTryout copy.png">
+    </div>
+
+    <div class="projects-info" >
+        <h1 id="proj-info-head">Moodboards</h1>
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_ColorLighting_001.jpg">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_Lighting_001.jpg">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_Makeup_001.jpg">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_Renders_001.jpg">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_Styling_001.jpg">
+        <img id="prev-versions" src="Assets/Project Content/Fashion/Alternate/Moodboard_Props_001.jpg">
+    </div>
+    </div>
+
+    <!--
+    <div id="button">
+        <button id="previous"><a>Previous</a></button>
+        <button id="next"><a>Next</a></button>
+    </div>
+    -->
+</div>
+
+<script>
+// Overlay
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+  </script>
+</body>
+</html>

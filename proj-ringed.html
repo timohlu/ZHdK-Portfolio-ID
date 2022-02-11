@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ringed</title>
+    <link reL="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="nav-bar">
+        <h1 class="logo-text"><a href="index.html">Timo Hlubek</a></h1>
+        <!-- <img id="logo-img" src="Assets/Logo/LogoPlaceHolder@2x.png"> -->
+        <!-- <h1 class="navigation"><a href="about.html">About</a></h1> -->
+        <!-- <h1 class="navigation"><a href="index.html">Work</a></h1> -->
+        <!-- <h1 class="navigation"><a href="index.html">Inhaltsverzeichnis</a></h1> -->
+        <span class="navigation-overlay" style="cursor:pointer" onclick="openNav()">menu</span>
+    </div>
+    
+   <!-- Overlay -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10005;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="tinder.html">Hausaufgabe</a>
+      <a href="proj-infinity.html">Infinity</a>
+      <a href="proj-emotions.html">Emotions</a>
+      <a href="proj-ringed.html">Ringed</a>
+      <a href="fashion.html">Fashion</a>
+      <a href="NFT.html">NFT</a>
+    </div>
+  </div>
+
+    <!-- Project Content -->
+<div class="site-content">
+    <div id="proj-title-header">
+        <h1>
+            Ringed
+        </h1>
+    </div>
+
+    <div id="thirds-imgs">
+        <img class="thirds" id="img-1" src="Assets/Project Content/Ringed/Ringed_CloseupLight_001.jpg">
+        <img class="thirds" id="img-2" src="Assets/Project Content/Ringed/Ringed_001.jpg">
+        <img class="thirds" id="img-3" src="Assets/Project Content/Ringed/Ringed_GlassCloseup_001.jpg">
+    </div>
+
+    <div class="projects-info-container" >
+        <h1 id="proj-info-head">Projektbeschrieb</h1>
+        <p id="proj-info-text">
+            Diese Bilder entstanden bei einem meiner ersten Versuche etwas ästetisches zu generieren.
+            <br>
+            <br>
+            Hier wollte ich ausserdem mit Licht und Reflektion spielen. Ich war fasziniert, wie Licht mit normalem und milchigem Glas interagiert.
+            <br>
+            <br>
+            "Ringed" war auch das erste gerenderte Projekt dass ich mich getraut habe online aufzuschalten.
+        </p>
+        <p id="proj-info-year">// 2021</p>
+    </div>
+
+    <div class="projects-info-container" >
+        <h1 id="proj-info-head">Vorherige Versionen</h1>
+        <img id="prev-versions" src="Assets/Project Content/Ringed/Previous/Male_002.png">
+        <img id="prev-versions" src="Assets/Project Content/Ringed/Previous/Male_003.png">
+        <img id="prev-versions" src="Assets/Project Content/Ringed/Previous/VolumeCubic_Main_001.png">
+        
+    </div>
+
+    <!--
+    <div id="button">
+        <button id="previous"><a>Previous</a></button>
+        <button id="next"><a>Next</a></button>
+    </div>
+    -->
+</div>
+
+<script>
+// Overlay
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+  </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link reL="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+  <div id="nav-bar">
+    <!--<h1 class="logo-text"><a href="index.html">Timo Hlubek</a></h1>-->
+    <a href="index.html"> <img id="logo-img" src="Assets/Logo/LogoPlaceHolder@2x.png"></a>
+    <!-- <h1 class="navigation"><a href="about.html">About</a></h1> -->
+    <!-- <h1 class="navigation"><a href="index.html">Work</a></h1> -->
+    <!-- <h1 class="navigation"><a href="index.html">Inhaltsverzeichnis</a></h1> -->
+    <span class="navigation-overlay" style="cursor:pointer" onclick="openNav()">menu</span>
+</div>
+
+<!-- Overlay -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10005;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="tinder.html">Hausaufgabe</a>
+    <a href="proj-infinity.html">Infinity</a>
+    <a href="proj-emotions.html">Emotions</a>
+    <a href="proj-ringed.html">Ringed</a>
+    <a href="fashion.html">Fashion</a>
+    <a href="NFT.html">NFT</a>
+  </div>
+</div>
+
+  <div id="homepage">
+    <!-- Projects - Infinity -->
+    <div class="container">
+      <a href="tinder.html">
+        <img src="Assets/Cover Images/ZHdK_Hausaufgabe_RS_F_Lena_Pose-1_Clear_001_2.jpg" class="cover-image">
+      </a>
+      <div class="cover-image-text">
+        unscharf
+    </div>
+
+    <div class="projects-genre">
+      <p class="homepage-title">Portfolio:</p>
+      <p class="homepage-subtitle">Renderings</p>
+    </div>
+
+
+  <div id="homepage">
+    <!-- Projects - Infinity -->
+    <div class="container">
+      <a href="proj-infinity.html">
+        <img src="Assets/Cover Images/InfinityHeader.png" class="cover-image">
+      </a>
+      <div class="cover-image-text">
+        Infinity
+    </div>
+
+    <!-- Projects - Accessories -->
+    <div class="container">
+        <a href="proj-emotions.html">
+          <img src="Assets//Cover Images/Emotions Header.jpg" class="cover-image">
+        </a>
+        <div class="cover-image-text">
+          Emotions
+    </div>
+
+    <!-- Projects - Ringed -->
+    <div class="container">
+        <a href="proj-ringed.html">
+          <img src="Assets/Cover Images/RingsHeader.png" class="cover-image">
+        </a>
+        <div class="cover-image-text">
+          Ringed
+        </div>
+    </div>
+
+
+    <!-- Projects - Photography -->
+    <div class="projects-genre">
+      <p class="homepage-subtitle">Fotografie</p>
+    </div>
+
+    <!-- Projects - Fashion -->
+    <div class="container">
+      <a href="fashion.html">
+        <img src="Assets/Project Content/Fashion/2019_11_modefotografie_046-1-CoverImage.jpg" class="cover-image">
+      </a>
+      <div class="cover-image-text">
+        Fashion
+      </div>
+    </div>
+
+    <!-- Projects - Photography -->
+    <div class="projects-genre">
+      <p class="homepage-subtitle">Design</p>
+    </div>
+
+    <!-- Projects - NFT -->
+    <div class="container">
+      <a href="NFT.html">
+        <img src="Assets/Project Content/NFT/Cube_MacBookPro_BabyBlue.png" class="cover-image">
+      </a>
+      <div class="cover-image-text">
+        NFT
+      </div>
+    </div>
+
+    <!-- Projects - Webdesign 
+    <div class="container">
+      <a href="webdesign.html">
+        <img src="Assets/Project Content/Webdesign/Webdesign_005.png" class="cover-image">
+      </a>
+      <div class="cover-image-text">
+        Webdesign
+      </div>
+    </div>
+  -->
+  </div>
+
+  <script>
+    // Overlay
+    function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+  </script>
+</body>
+</html>
