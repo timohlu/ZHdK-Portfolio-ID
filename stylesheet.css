@@ -665,8 +665,8 @@ button:active {
     /* top: 20%; */
     left: 50%;
     text-align: center;
-    transform: translate(-50%, -480%);
-    font-size: 4rem;
+    transform: translate(-50%, -600%);
+    font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     pointer-events: none;
