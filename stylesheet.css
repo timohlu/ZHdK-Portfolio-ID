@@ -545,6 +545,60 @@ button:active {
     transition: 0.3s;
   }
 
+  /* Navigation */
+  #nav-bar {
+    background-color: red;
+    padding-bottom: 7vw;
+  }
+
+  .navigation {
+    padding: 10px;
+    float: right;
+    font-size: 2rem;
+    opacity: 0.2;
+  }
+
+  .navigation:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: rgb(88, 88, 88);
+  }
+
+  .logo-text {
+    float: left;
+    font-weight: 400;
+    font-family: Helvetica;
+    opacity: 0.2;
+    transition: 0.2s ease;
+  }
+
+  .navigation-overlay {
+    padding: 3px;
+    float: right;
+    font-size: 3rem;
+    opacity: 0.2;
+    transition: 0.2s ease;
+  }
+
+  .navigation-overlay:hover {
+    transition: 0.2s ease;
+    transform: scale(1.02);
+    opacity: 1;
+  }
+
+  a:link {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 3rem;
+  }
+
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
   /* Hausaufgabe Site Heading */
   .header {
     background-color: white;
