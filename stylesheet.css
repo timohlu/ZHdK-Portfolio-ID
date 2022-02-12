@@ -545,7 +545,14 @@ button:active {
     transition: 0.3s;
   }
 
-  /* Navigation */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+  }
+
+  /* Mobile - Navigation */
   #nav-bar {
     padding-bottom: 7vw;
   }
