@@ -714,6 +714,15 @@ button:active {
     position: relative;
   }
 
+  .thirds-vid {
+    overflow: none;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5vw;
+    position: relative;
+    pointer-events: none;
+  }
+
   #thirds-imgs {
     text-align: center;
     padding-bottom: 50px;
