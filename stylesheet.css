@@ -176,15 +176,17 @@ a:visited {
   font-weight: 700;
   margin-bottom: -5vw;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .homepage-subtitle {
   font-size: 5vw;
-  font-weight: 900;
-  color: black;
+  font-weight: 400;
+  color: lightgrey;
   opacity: 1;
-  text-align: center;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .container {
