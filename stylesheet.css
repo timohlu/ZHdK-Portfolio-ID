@@ -43,7 +43,7 @@ body {
 .overlay a:hover,
 .overlay a:focus {
   color: black;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .overlay .closebtn {
@@ -253,8 +253,8 @@ a:visited {
   transition: 0.3s ease;
 }
 
-#blur-on-hover:hover {
-  filter: blur(6px);
+#blur-on-hover {
+  filter: blur(0.3px);
   transition: 0.3s ease;
 }
 
