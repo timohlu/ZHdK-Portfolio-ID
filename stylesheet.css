@@ -276,6 +276,17 @@ a:visited {
   object-fit: cover;
 }
 
+.thirds-vid {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px;
+  border-radius: 2vw;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s ease;
+  object-fit: cover;
+}
+
 #webdesign-imgs {
   width: 20vw;
   padding: 20px;
