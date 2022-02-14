@@ -833,7 +833,7 @@ button:active {
     margin: auto;
     position: absolute;
     overflow: none;
-    transform: translateY(-85%) translateX(31%);
+    transform: translateY(-85%) translateX(30%);
     /*
     transform: translateY(-72vw) translateX(17.5vw);
     */
