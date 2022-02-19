@@ -468,7 +468,7 @@ button:active {
 
 /* Slideshow */
 #img-slideshow {
-  height:100%;
+  height: 100%;
   width: 30.1vw;
   object-fit: cover;
   display: block;
@@ -897,5 +897,11 @@ button:active {
     margin-right: 10px;
     margin-bottom: 80px;
     background-color: rgb(219, 219, 219);
+  }
+
+  #prev-versions-landscape {
+    width: 100%;
+    height: 100%;
+    border-radius: 5vw;
   }
 }
